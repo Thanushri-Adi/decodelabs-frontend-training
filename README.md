@@ -25,6 +25,6 @@ This repository tracks my engineering growth through separate, self-contained mi
 
 ---
 
-## 🔬 Core Engineering Stack & Audit Targets
+##  Core Engineering Stack & Audit Targets
 * **Languages:** Semantic HTML5, Vanilla CSS3 (Advanced Grid & Flexbox), Vanilla JavaScript (ES6+ Native Engine)
 * **Quality Assurance Goals:** 100% W3C Code Validation, 100% Lighthouse Performance & Accessibility Scores, and 0.0 Cumulative Layout Shift (CLS).
