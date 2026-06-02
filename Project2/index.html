@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- For Responsive Lyout -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShareShed | Community Resource Library</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__wrapper">
+      <div class="site-header__brand">
+        <span class="site-header__title">Share<span class="site-header__title--alt">Shed</span></span>
+      </div>
+      
+      <!-- Accessible Pure CSS Hamburger Trigger (Minimum Touch Target: 44px x 44px) -->
+      <label for="menu-toggle" class="site-header__hamburger" aria-label="Toggle navigation menu">
+        <span class="site-header__hamburger-bar"></span>
+        <span class="site-header__hamburger-bar"></span>
+        <span class="site-header__hamburger-bar"></span>
+      </label>
+      <input type="checkbox" id="menu-toggle" class="site-header__toggle-input">
+
+      <nav class="site-header__nav" aria-label="Main Navigation">
+        <ul class="site-header__menu">
+          <li class="site-header__menu-item"><a href="#inventory" class="site-header__menu-link">Inventory</a></li>
+          <li class="site-header__menu-item"><a href="#workshops" class="site-header__menu-link">Workshops</a></li>
+          <li class="site-header__menu-item"><a href="#metrics" class="site-header__menu-link">Shed Status</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="catalog-layout">
+    
+    <div class="catalog-layout__stream">
+      
+      <section class="welcome-banner" aria-labelledby="welcome-heading">
+        <div class="welcome-banner__metadata">
+          <span class="welcome-banner__tag">Borrow instead of buying</span>
+          <h1 id="welcome-heading" class="welcome-banner__heading">The Neighborhood Resource Collective</h1>
+          <p class="welcome-banner__lead">Welcome to ShareShed. We provide affordable access to high-utility appliances, domestic machinery, festival gear, and DIY workshop tools for local families and creators.</p>
+        </div>
+      </section>
+
+      <section id="inventory" class="inventory-section" aria-labelledby="inventory-heading">
+        <h2 id="inventory-heading" class="section-title">Available Tool Catalog</h2>
+        
+        <div class="inventory-grid">
+          <article class="tool-card">
+            <div class="tool-card__cover">
+              <img class="tool-card__image" src="assets/wet-grinder.jpg" alt="A heavy duty stainless steel tabletop wet grinder with dual stone rollers placed on a stone surface" width="380" height="240" loading="eager">
+            </div>
+            <div class="tool-card__content">
+              <span class="tool-card__label">Kitchen Electronics</span>
+              <h3 class="tool-card__title">Commercial 2L Tilting Wet Grinder</h3>
+              <p class="tool-card__excerpt">Features heavy-duty granite grinding stones and a high-torque motor. Perfect for preparing large batches of idli, dosa, or vada batter for family functions and neighborhood gatherings.</p>
+            </div>
+          </article>
+
+          <article class="tool-card">
+            <div class="tool-card__cover">
+              <img class="tool-card__image" src="assets/sewing-machine.jpg" alt="Close up detail of a classic black mechanical tailoring sewing machine mounted on a wooden table setup" width="380" height="240" loading="eager">
+            </div>
+            <div class="tool-card__content">
+              <span class="tool-card__label">Textiles & Tailoring</span>
+              <h3 class="tool-card__title">Heavy-Duty Electric Stitching Machine</h3>
+              <p class="tool-card__excerpt">Classic mechanical assembly updated with a high-speed electric motor foot runner. Ideal for dense cotton stitching, fall-pico edging work on sarees, and festive garment alterations.</p>
+            </div>
+          </article>
+
+          <article class="tool-card">
+            <div class="tool-card__cover">
+              <img class="tool-card__image" src="assets/sewing-motor.jpg" alt="A compact detachable electric motor kit with a foot pedal controller designed for vintage tailoring machines" width="380" height="240" loading="lazy">
+            </div>
+            <div class="tool-card__content">
+              <span class="tool-card__label">Machinery Kits</span>
+              <h3 class="tool-card__title">High-Torque Sewing Machine Motor Upgrade</h3>
+              <p class="tool-card__excerpt">A portable 1/20 HP external motor kit with foot pedal controls. Temporarily upgrades standard manual treadle tailoring tables to high-speed electric units for heavy boutique projects.</p>
+            </div>
+          </article>
+
+          <article class="tool-card">
+            <div class="tool-card__cover">
+              <img class="tool-card__image" src="assets/juicer-machine.jpg" alt="A manual hand-cranked iron sugarcane juice extractor unit with heavy metal gears bolted onto a firm frame" width="380" height="240" loading="lazy">
+            </div>
+            <div class="tool-card__content">
+              <span class="tool-card__label">Event Gear</span>
+              <h3 class="tool-card__title">Hand-Crank Sugarcane Extractor</h3>
+              <p class="tool-card__excerpt">Heavy-duty cast iron manual crushing assembly with three solid rollers. Excellent choice for community stalls, colony block parties, or summer juice drives.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="workshops" class="workshops-section" aria-labelledby="workshops-heading">
+        <h2 id="workshops-heading" class="section-title">Upcoming Learning Sessions</h2>
+        
+        <div class="workshop-stack">
+          <div class="workshop-banner">
+            <span class="workshop-banner__status">Skill Training</span>
+            <h3 class="workshop-banner__title">Basic Appliance Repair & Motor Maintenance</h3>
+            <p class="workshop-banner__text">Learn basic troubleshooting skills for regular household motors, including replacing carbon brushes in mixers, oiling mechanical stitching components, and checking fuse lines safely.</p>
+          </div>
+
+          <div class="workshop-banner">
+            <span class="workshop-banner__status">Precision Work</span>
+            <h3 class="workshop-banner__title">Wet Grinder Stone Realignment & Dressing</h3>
+            <p class="workshop-banner__text">A hands-on workshop guiding members on how to balance roller shafts, score worn granite stones for better friction, and clean baseline bearings to optimize grinding performance.</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <aside id="metrics" class="sidebar-info" aria-labelledby="sidebar-heading">
+      <div class="sidebar-info__sticky">
+        <h2 id="sidebar-heading" class="sidebar-info__title">Live Dispatches</h2>
+        
+        <div class="sidebar-info__card">
+          <span class="sidebar-info__status">Shed Update</span>
+          <p class="sidebar-info__event"><strong>Weekend Workshop:</strong> Mechanical Tailoring Machine Oiling</p>
+          <p class="sidebar-info__time">Saturday, 10:00 AM • Main Assembly Bay</p>
+        </div>
+
+        <div class="sidebar-info__card">
+          <span class="sidebar-info__status sidebar-info__status--alert">Notice</span>
+          <p class="sidebar-info__event"><strong>Shed Maintenance Closure:</strong> Inventory Counting Day</p>
+          <p class="sidebar-info__time">Next Tuesday • All Day (Returns via Dropbox only)</p>
+        </div>
+
+        <ul class="sidebar-info__metrics">
+          <li class="sidebar-info__metric-item"><strong>Available Tools:</strong> 424+ Items</li>
+          <li class="sidebar-info__metric-item"><strong>Active Members:</strong> 1,152 Accounts</li>
+          <li class="sidebar-info__metric-item"><strong>Pending Bookings:</strong> 18 Requests</li>
+          <li class="sidebar-info__metric-item"><strong>Shed Status:</strong> Open until 8:00 PM</li>
+        </ul>
+      </div>
+    </aside>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__container">
+      <p class="site-footer__text">&copy; 2026 ShareShed Hub. Built by the community, for the community.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
