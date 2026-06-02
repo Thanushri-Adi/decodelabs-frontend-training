@@ -4,7 +4,7 @@ Welcome to my master frontend development repository for the **DecodeLabs Indust
 
 ---
 
-## 🏬 Master Project Domain: ShareShed
+##  Master Project Domain: ShareShed
 
 All weekly milestones in this repository are developed within a singular, highly useful real-world domain: **ShareShed**.
 
@@ -15,7 +15,7 @@ By centering the platform around practical Indian household needs—such as comm
 
 ---
 
-## 🗺️ Repository Architecture & Weekly Progression
+##  Repository Architecture & Weekly Progression
 
 This repository tracks my engineering growth through separate, self-contained milestone phases. Click on any project link below to view its deep-dive technical documentation, core objectives, and step-by-step key implementation features:
 
